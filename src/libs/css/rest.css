@@ -353,5 +353,7 @@ input{
 	font-size:12px;
 	vertical-align:middle;
 }
+.clearfix:after { content:"."; clear: both; height: 0; overflow: hidden; visibility: hidden; display: block; }
+.clearfix { zoom: 1;}
 /*HTML5 Tag styles*/
 article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block; margin:0; padding:0;}
