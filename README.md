@@ -19,6 +19,7 @@ npm run build
 ```
 npm run lint
 ```
-
+npm安装 npm i wmh-vue-cli
+本地下载 wcli init pro_name
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
