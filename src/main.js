@@ -19,7 +19,8 @@ Vue.use(Loading);
 //全局土司
 import Toast from "./components/toast/index";
 Vue.use(Toast);
-
+import Directives from './directives'
+Vue.use(Directives)
 Vue.config.productionTip = false;
 
 new Vue({
