@@ -31,7 +31,7 @@ export default {
                     src: loadImg
                   }
                 }),
-                createElement("span", "加载中...")
+                createElement("span", this.text?this.text:"加载中...")
               ]
             )
           ]
@@ -40,7 +40,8 @@ export default {
     );
   },
   props: {
-    isShow: Boolean
+    isShow: Boolean,
+    text:String
   }
 };
 </script>

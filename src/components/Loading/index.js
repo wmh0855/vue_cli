@@ -10,6 +10,7 @@ const Loading = {
         document.body.appendChild(initLoading.$el);
         Vue.prototype.$ltLoading = function(config) {
             initLoading.isShow = config.isShow;
+            initLoading.text = config.text;
         };
     }
 };
